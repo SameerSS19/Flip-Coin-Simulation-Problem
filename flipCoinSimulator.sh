@@ -1,12 +1,12 @@
 #!/bin/bash -x
-echo "WELCOME TO FLIP COIN COMBINATION"
+echo "WELCOME TO FLIP COIN SIMULATION PROBLEM"
 
-result=$(( RANDOM%2 ));
-if [ $result == 1 ];
+result=$(( RANDOM%2 ))
+if [ $result == 1 ]
 then
-        echo "Heads";
+        echo "Head Is Winner"
 else
-        echo "Tails";
+        echo "Tail is Winner"
 fi
 
 head=0;
